@@ -1,0 +1,1081 @@
+<!doctypehtml>
+<html>
+  <head> <title> ok goolge </title>     
+   <style>
+   html{
+    scroll-behavior:smooth;
+   }
+   *{
+     margin:0;
+	 border:border-box;
+	 padding:0;
+	 font-family: 'Baloo Bhai 2', cursive;
+   }
+   a{
+     text-decoration:none;
+	 list-style:none;
+   }
+   a:hover{
+     text-decoration:none;
+	 color:none;
+	 list-style:none;
+   }
+   p{
+     font-size:1rem;
+   }
+   li{
+   text-decoration:none;
+    list-style:none;
+   }
+   .header{
+    width:100%;
+	height:100vh;
+	background: url(https://images.unsplash.com/photo-1593642632505-1f965e8426e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)no-repeat center/cover;
+	background-size:100% 100%;
+	clip-path:polygon(100% 0%,100% 77%,50% 100%,0% 75%,0 0);
+	position:relative;
+   }
+   .header:before{
+     content:"";
+	 position:absolute;
+	 top:0%;
+	 bottom:0%;
+	 left:0px;
+	 right:0px;
+	 background: black;
+	 opacity:0.3;
+	 z-index:-1;
+   }
+   .navbar:before{
+          content:"";
+	 position:absolute;
+	 top:0%;
+	 bottom:0%;
+	 left:0px;
+	 right:0px;
+	 background: black;
+	 opacity:0.3;
+	 z-index:-1;
+   }
+   .nav-item a{
+     color:white;
+	 font-weight:bold;
+	  margin: 10px 14px;
+	  padding: 4px;
+	  
+   }
+   .nav-item a:hover{
+      text-decoration: none;
+      list-style: none;
+      color: black;
+     /* border: 1px solid white;*/
+     background: white;
+     border-radius: 20px;
+     /*padding: 4px;
+     margin: 12px 18px;*/
+   }
+   .navbar-brand{
+    color:white;
+	font-weight:bold;
+	text-decoration:none;
+   }
+   .navbar-brand:hover{
+     	text-decoration:none;
+	color:white;
+   }
+   .font-weight-bold{
+    color:white;
+   }
+   
+   .font-weight-light{
+    color:white;
+   }
+   .center-div{
+    display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	top:20%;
+	left:20%;
+	height:35rem;
+   }
+   .header-buttons a{
+        color: white;
+    border: 2px solid white;
+    margin: 17px 6px;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 34px;
+    font-weight: 100;
+    font-height: inherit;
+    padding: 12px 32px;
+	text-align:center;
+   }
+  .header-buttons a:hover{
+     text-decoration:none;
+	 list-style:none;
+	 color:black;
+	 background:#f8f8f8; 
+  } 
+  #botton{
+    padding-bottom:22px;
+  }
+  #container{
+    margin-top:21px;
+  }
+  .center-div p{
+    font-size:21px;
+  }
+  .container{
+   display:flex;
+  }
+  .extra-div{
+   padding:50px 21px!important;
+    margin:20px 0px;
+	text-align:center;
+  }
+   .extra-div:hover{
+      box-shadow:1px 2px 10px rgb(219, 219, 229);
+         transform:translateY(-5px);
+  }
+  .serviceoffers{
+   background:#f7f7f9;
+   padding:50px 0px;
+   margin:20px 0px;
+  }
+  .text{
+      display:flex;
+	  justify-content:center;
+	  align-items:center;
+  }
+  
+  .servicediv{
+    margin:15px 0px;
+	padding:10px 10px;
+	font-size: .7rem;
+  }
+  .service-icons{
+    margin:0px 0px;
+	display:flex;
+	justify-content;
+	align-items:center;
+	color:green;
+  }
+  #ser{
+   color:brown;
+  }
+  #ser1{
+    color:blue;
+  }
+   #ser2{
+    color:green;
+  }
+  
+  
+  
+  .project-work{
+     margin:38px 10px;
+	 padding:10px 10px;
+  }
+  .container{
+   margin:10px 10px;
+   padding:10px 10px;
+  }
+  
+   
+   .price{
+     height:100vh;
+	 width:100%;
+	 padding:50px;
+	 position:relative;
+   }
+   .price::before{
+     content:"";
+	 position:absolute;
+	 top:0%;
+	 bottom:0%;
+	 left:0px;
+	 right:0px;
+	 background:black;
+	 z-index:-1;
+	 clip-path:polygon(100% 0%,100% 0%,0% 100%,0% 100%,0 0);
+   }
+   .money{
+     font-size:2rem;
+   }
+   .card{
+     
+   }
+   .card:hover{
+      transform:translateY(-10px);
+	   box-shadow:0 0 18px #000000;
+   }
+   .card-header{
+    align-items: center;
+    font-size: 25px;
+    margin: 7px 11px;
+	    border-bottom: 1px solid rgba(0,0,0,9.125)!important;
+		background:white!important;
+   }
+   .card-body{
+      background:white;
+	  padding:20px 10px;
+	  margin:18px 25px;
+   }   
+   .card-footer{
+     padding: 18px 21px !important;
+	 border-top: 1px solid rgba(0,0,0,4.125)!important;
+    
+   }
+   .card-footer a{
+        color:black;
+    border: 2px solid black;
+    margin: 17px 6px;
+    outline: none;
+    font-size: 0.7rem;
+    border-radius: 34px;
+    font-weight: 100;
+    font-height: inherit;
+    padding: 12px 32px;
+	text-align:center;
+   }
+   .card-footer a:hover{
+     text-decoration:none;
+	 list-style:none;
+	 color:white;
+	 background:#171212;;
+   box-shadow: 0 0 12px #6f6f60;	 
+  } 
+     /--************************ ENDING our priceing*********************************************--/
+  
+   .happy-clints{
+     width:100%;
+	 height:100vh;
+	 padding:50px 0;
+	 margin:20px 20px;
+   }
+   .box{
+     border:2px solid black;
+	 box-shadow: 0 0 10px black;
+	 text-align:center;
+   }
+   .box:hover{
+     background:black;
+   }
+  .touch:hover{
+   color:white;
+  }
+   .box h2{
+    font-size:24px;
+   }
+   .box h4{
+     font-size:16px;
+   } 
+   .box a{
+    position:relative;
+   }
+    .box a img{
+    /* border: 1px solid black; */
+    display: flex! important;
+    justify-content: center!important;
+    align-items: center!important;
+    width: 100px;
+    height: 86px;
+    border-radius: 50%;
+   margin:10px 165px;
+	}
+	.carousel-indicators{
+	   position:relative;
+	   bottom: -60px!important;
+	}
+	.carousel-indicators li{
+	  background-color:blue!important;
+	 margin-bottom:6%;
+	}
+	
+
+	  .contactus{
+	  padding:50px 0;
+	   width:100%;
+	   height:auto;
+	   transition: all 1s ease-in-out;
+	   color:black;
+	   }
+	 
+/*.contactus::before{
+	   content:"";
+	 position:absolute;
+	 top:0%;
+	 bottom:0%;
+	 left:0;
+	 right:0;
+	 background:black;
+	 z-index:-1;
+	 clip-path:polygon(100% 0%,100% 0%,0% 100%,0% 100%,0 0);
+	 color:white;
+	 }*/
+	.contactus:hover{
+	    width: 100%;
+    height: auto;
+    background: black;
+    z-index: -1;
+    color: white;
+    border-radius: 20px;
+	 }
+	  .content{
+	 top: 20px;
+    left: 20px;
+    bottom: 20px;
+    /* margin: 55px 20px; */
+    margin-bottm: 20px;
+    margin-bottom: 27px;
+    margin-top: 58px;
+   }
+	  .subtace{
+	  color:white!important;
+    border: 2px solid black !important;
+    margin: 17px 50%!important;
+    outline: none!important;
+    font-size: 1rem!important;
+    border-radius:34px!important;
+    font-weight:100!important;
+    font-height:inherit!important;
+    padding:12px 32px!important;
+    text-align:center!important;
+	background:black!important;
+	  }
+	  .subtace:hover{
+	   	background:white!important;
+        color:black!important;
+		margin: 17px 50%!important;
+	  }
+	  
+	  .email{
+	   width:100%;
+	   height:auto;
+	   margin:30px 30px;
+	   padding:20px 20px;
+	  }
+	  .email-input{
+	  border-radius:100px 0px 0px 100px!important;
+	  }
+	  .suscribe{
+	   border-radius:0px 100px 100px 0px!important;
+	   color:white!important;
+	   background:black!important;
+	   width:146px!important;
+      display:flex!important;
+	  align-items:center!important;
+	  justify-content:center!important;
+ 	  }
+	  
+	  .footersection{
+	    width:100%;
+		height:auto;
+    margin-top: 77px;
+	padding:10px 10px;
+		background:black;
+		color:white;
+		border-radius:10px 10px;
+	  }
+	  .footersection li a{
+	   	  text-decoration: none;
+		color:white;
+		font-size:23px;
+	  }
+	  #myBtn{
+	    position:fixed;
+		bottom:20px;
+		right:40px;
+		border:none;
+		background:white;
+		color:black;
+	    padding:5px;
+		border-radius:20px;
+	  }
+	  
+	  
+	  
+	  
+ @media(max-width: 760px){
+     .nav-item{
+	    text-align:center!important;
+	 {
+	 .center-div{
+	  text-align:center!important;
+	   display:flex!important;
+	   justify-content!center!important;
+	   align-items:center!important;
+	 }
+	 .price{
+	    height:100vh;
+		margin-top:20px ;
+	 }
+ }
+	  
+   </style>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+  </head> 
+<body>
+    <div class="header" id="topheader">
+	<nav class="navbar navbar-expand-lg">
+	<div class="container text-uppercase p-2">
+  <a class="navbar-brand" href="#">computer shop</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto uppercase">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#service">service</a> 
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="#price">price</a> 
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="#about">about</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact US</a>
+      </li>
+      
+  </div>
+   </div>
+</nav>
+   <section class="header-section">
+ <div class="center-div">
+	<h1 class="font-weight-bold">we are the web developers</h1>
+	<p class="font-weight-light"> we create the best website for ever ever</p>
+	<p class="font-weight-light"> create the best website for ever</p>
+	<p class="font-weight-light"id ="botton"> the best website for ever</p>
+	<div class="header-buttons">
+	  <a href="#">aboutus</a>
+	  	  <a href="#">contactus</a>
+	</div>
+	</div>
+	</section>
+	</div>
+	
+        <!--*********************** header part end***************************-->
+		
+		
+    <section class="header-extradiv">
+	<div class="container" id="container">
+	 <div class="row">
+	   <div class=" extra-div col-lg-4 col-md-4col-12">
+	      <a href="#"><i class="fa-3x fa fa-desktop" aria-hidden="true"></i></a>
+		   <h2>easy to use</h2>
+		   <p>Add right-click context menu to bookmark margin
+		   Add right-click context menu to bookmark margin.
+		    Add right-click context menu to bookmark margin.
+		   </p>
+	   </div>
+	   
+	   <div class=" extra-div col-lg-4 col-md-4 col-12">
+	      <a href="#"><i class=" fa-3x fa fa-trophy" aria-hidden="true"></i></a>
+		   <h2>easy to use</h2>
+		   <p>Add right-click context menu to bookmark margin
+		   Add right-click context menu to bookmark margin.
+		    Add right-click context menu to bookmark margin.
+		   </p>
+	   </div>
+	   
+	   
+	   <div class=" extra-div col-lg-4 col-md-4 col-12">
+	      <a href="#"><i class=" fa-3x fa fa-magic" aria-hidden="true"></i></a>
+		   <h2>easy to use</h2>
+		   <p>Add right-click context menu to bookmark margin
+		   Add right-click context menu to bookmark margin.
+		    Add right-click context menu to bookmark margin.
+		   </p>
+	   </div>
+	 </div>
+	</div>
+	</section>
+	
+	
+	<!--*********************** extra-div part end***************************-->
+	
+	
+	<!--************************offer section start*****************************-->
+	<section class="serviceoffers" id="service">
+	<div class="content">
+	 <h1 class="text heading">WHAT DO YOU OFFER</h1>
+	 <p class="text-center"> Add right-click context menu to bookmark marginAdd right-click context menu to bookmark marginAdd right-click context menu to bookmark margin</p>
+	<p class="text-center"> Add right-click context ookmark marginAdd right-click context menu to bookmark margin</p>
+	</div>
+	
+	<div class="contain">
+	 <div class="row">
+	   <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+	     <div class="name my-3">
+		    <h3>html</h3>
+			<div class="progress w-75">
+       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+       </div>
+		  </div>
+		  
+		  <div class="name my-3">
+		    <h4>java script</h4>
+			<div class="progress w-75">
+    <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
+           </div>
+		  </div>
+		  
+          <div class="name my-3">
+		    <h4>jss</h4>
+			<div class="progress w-75">
+        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+		  </div>
+		  
+		   <div class="name my-3">
+		    <h4>reacts</h4>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped  bg-info progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">60%</div>
+          </div>
+		  </div>
+		  
+		  
+		  <div class="name my-3">
+		    <h4>web-page</h4>
+			<div class="progress w-75">
+    <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width:40%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">40%</div>
+           </div>
+		  </div>
+ 
+            <div class="name my-3">
+		    <h4>nodes</h4>
+			<div class="progress w-75">
+             <div class="progress-bar progress-bar-striped bg-success progress-bar-animated " role="progressbar" style="width:15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">15%</div>
+              </div>
+			</div>
+	   </div>
+	   
+	   <div class="col-lg-6 col-md-12 col-12 servicediv">
+   <div class="row">
+        <div class="col-lg-2 col-2 service-icons" id="ser">
+		   <i class="fa-3x fa fa-desktop" aria-hidden="true"></i>
+		</div>
+		<div class="col-lg-10 col-10 my-2">
+		 <h3>website development</h3>
+		 <p>  Display file name as root of workspace instead of Workspace 
+		    Add file extension automatically for session files and workspace files while saving in new style dialog.
+             Fix file reading failure (network problem) not detected issue.
+             Improve Document Map precision.</p>
+		</div>
+		
+		 <div class="col-lg-2 col-2 service-icons" id="ser1">
+		   <i class="fa-3x fa fa-wifi" aria-hidden="true"></i>
+		</div>
+		<div class="col-lg-10 col-10 my-2">
+		 <h3>digital marketing</h3>
+		 <p>  Display file name as root of workspace instead of Workspace 
+		    Add file extension automatically for session files and workspace files while saving in new style dialog.
+             Fix file reading failure (network problem) not detected issue.
+             Improve Document Map precision.</p>
+		</div>
+		
+		 <div class="col-lg-2 col-2 service-icons" id="ser2">
+		   <i class="fa-3x fa fa-phone" aria-hidden="true"></i>
+		</div>
+		<div class="col-lg-10 col-10 my-2">
+		 <h3>support 24/7</h3>
+		 <p>  Display file name as root of workspace instead of Workspace 
+		    Add file extension automatically for session files and workspace files while saving in new style dialog.
+             Fix file reading failure (network problem) not detected issue.
+             Improve Document Map precision.</p>
+		</div>
+   </div>
+    </div>
+	 </div>
+	</div>
+ </section>	
+ 
+ 
+ 	<!--************************offer section end*****************************-->
+	
+	<!--************************count-down section start*****************************-->
+ 
+ <section class="project-work">
+	<div class="conten headings text-center">
+	 <h3 class="my-4"> MORE THEN 2,000+ WEBSITE CREATED</h3>
+	  <div class="container d-flex justify-content-around align-items-center text-center">
+	  
+	   <div>
+	     <h1 class="count">1500</h1>
+		 <p>installation</p>
+	  </div>
+	   
+	    <div>
+	     <h1 class="count">1700</h1>
+		 <p>award-won</p>
+	  </div>
+	   
+	    <div>
+	     <h1 class="count">2200</h1>
+		 <p>happy-clints</p>
+	   </div>
+	   
+	    <div>
+	     <h1 class="count">500</h1>
+		 <p>working-ON</p>
+	   </div>
+	   
+	    <div>
+	     <h1 class="count">300</h1>
+		 <p>per-day-visit</p>
+	   </div>
+	
+	 <div>
+	     <h1 class="count">100</h1>
+		 <p>per-day-visit</p>
+	   </div>
+	   
+	   
+	  <div>
+    </div>
+</section>	
+
+   <!--************************count-down section end*********************************************-->
+   
+   
+   <!--************************ starting our priceing*********************************************-->
+   
+  <section class="price" id="price">
+	<div class=" ">
+	 <h1 class="text heading text-white"> our best pricing</h1>
+	 </div>
+	 <div class="container">
+	  <div class="row">
+	  
+	   <div class="col-lg-4 col-12">
+	    <div class="card text-center">
+      <div class="card-header text-center">basic</div>
+       <div class="card-body">
+	   <li>$<span class="money">20</span>/website</li>
+	   <p>  Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision.</p>
+	   </div>
+      <div class="card-footer">
+	   <a href="#">purchase</a>
+	  </div>
+      </div> 
+	   </div>
+	   
+	   
+	    <div class="col-lg-4 col-12">
+	    <div class="card text-center">
+      <div class="card-header text-center">basic</div>
+       <div class="card-body">
+	   <li>$<span class="money">20</span>/website</li>
+	   <p>  Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision.</p>
+	   </div>
+      <div class="card-footer">
+	   <a href="#">purchase</a>
+	  </div>
+      </div>     
+	   </div>
+	   
+	   
+	    <div class="col-lg-4 col-12">
+	    <div class="card text-center">
+      <div class="card-header text-center">basic</div>
+       <div class="card-body">
+	   <li>$<span class="money">20</span>/website</li>
+	  <p>  Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision.</p>
+	   </div>
+      <div class="card-footer">
+	   <a href="#">purchase</a>
+	  </div>
+      </div> 
+	   </div>
+	   
+	  </div>
+	 </div>
+	 </section>
+	 
+	    <!--************************ ENDING our priceing*********************************************-->
+
+   <!--************************ starting our HAPPYCLINTS*********************************************-->
+<section class="happy-clints" id="about">
+	<div class="content text-center">
+	 <h2 class="text heading">OUR HAPPY CLIENTS</h2>
+	 <p>specified customer says</p>
+	 	 <p>specified customer says  specified customer says</p>
+
+	</div>
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner row">
+    <div class="carousel-item active">
+      <div class="row m-4">
+	    <div class="col-lg-4 col-md-4 col-12">
+		<div class="box m-4">
+		   
+		   <a href="#"><img src="https://images.unsplash.com/photo-1592509281102-a67fbe9cec5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluidi img-thumbnail"></a>
+		   <div class="touch">
+		   <p class="m-4">
+		     Display file name as root of workspace in files while saving in new style dialog. Fix filetected issue. Improve Document Map precision Fix filetected issue. Improve Document Map precision
+		   </p>
+		   <h2>Fix filetected issue.</h2>
+		   <h4>Fix filetected issue. Improve Document Map precision</h4>
+		   </div>
+		 </div>
+		</div>
+		
+		   <div class="col-lg-4 col-md-4 col-12">
+		<div class="box m-4">
+		   <a href="#"><img src="https://images.unsplash.com/photo-1592509281102-a67fbe9cec5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluidi img-thumbnail"></a>
+		   <div class="touch">
+		   <p>
+		   Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision
+		   </p>
+		   <h2>Fix filetected issue.</h2>
+		   <h4>Fix filetected issue. Improve Document Map precision</h4>
+		   </div>
+		 </div>
+		</div>
+		
+		   <div class="col-lg-4 col-md-4 col-12">
+		<div class="box m-4">
+		   <a href="#"><img src="https://images.unsplash.com/photo-1592509281102-a67fbe9cec5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluidi img-thumbnail"></a>
+		   <div class="touch">
+		   <p class="m-8">
+		   Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision
+		   </p>
+		   <h2>Fix filetected issue.</h2>
+		   <h4>Fix filetected issue. Improve Document Map precision</h4>
+		   </div>
+		 </div>
+		</div>
+	  </div>
+	</div>
+    <div class="carousel-item">
+
+      <div class="row m-4">
+	    <div class="col-lg-4 col-md-4 col-12">
+		<div class="box m-4">
+		   <a href="#"><img src="https://images.unsplash.com/photo-1592509281102-a67fbe9cec5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluidi img-thumbnail"></a>
+		   <div class="touch">
+		   <p class="m-8">
+		   Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision
+             </p>
+		   <h2>Fix filetected issue.</h2>
+		   <h4>Fix filetected issue. Improve Document Map precision</h4>
+		 </div>
+		 </div>
+		</div>
+		
+		   <div class="col-lg-4 col-md-4 col-12">
+		<div class="box m-4">
+		   <a href="#"><img src="https://images.unsplash.com/photo-1592509281102-a67fbe9cec5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluidi img-thumbnail"></a>
+          <div class="touch">		 
+		 <p class="m-8">
+		   Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision
+		   </p>
+		   <h2>Fix filetected issue.</h2>
+		   <h4>Fix filetected issue. Improve Document Map precision</h4>
+		   </div>
+		 </div>
+		</div>
+		
+		   <div class="col-lg-4 col-md-4 col-12">
+		<div class="box m-4">
+		   <a href="#"><img src="https://images.unsplash.com/photo-1592509281102-a67fbe9cec5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluidi img-thumbnail"></a>
+		   <div class="touch">
+		   <p class="m-8">
+		   Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision
+		   </p>
+		   <h2>Fix filetected issue.</h2>
+		   <h4>Fix filetected issue. Improve Document Map precision</h4>
+		   </div>
+		 </div>
+		</div>
+	  </div>
+    </div>
+    <div class="carousel-item">
+     
+	       <div class="row m-4">
+	    <div class="col-lg-4 col-md-4 col-12">
+		<div class="box m-4">
+		   <a href="#"><img src="https://images.unsplash.com/photo-1592509281102-a67fbe9cec5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluidi img-thumbnail"></a>
+		   <div class="touch">
+		   <p class="m-8">
+		   Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision
+		   </p>
+		   <h2>Fix filetected issue.</h2>
+		   <h4>Fix filetected issue. Improve Document Map precision</h4>
+		   </div>
+		 </div>
+		</div>
+		
+		   <div class="col-lg-4 col-md-4 col-12">
+		<div class="box m-4">
+		   <a href="#"><img src="https://images.unsplash.com/photo-1592509281102-a67fbe9cec5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluidi img-thumbnail"></a>
+        <div class="touch">	
+		<p class="m-8">
+		   Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision
+		   </p>
+		   <h2>Fix filetected issue.</h2>
+		   <h4>Fix filetected issue. Improve Document Map precision</h4>
+		   </div>
+		 </div>
+		</div>
+		
+		   <div class="col-lg-4 col-md-4 col-12">
+		<div class="box m-4">
+		   <a href="#"><img src="https://images.unsplash.com/photo-1592509281102-a67fbe9cec5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluidi img-thumbnail"></a>
+		    <div class="touch">
+		   <p class="m-8 align-items-center">
+		   Display file name as root of workspace instead of "Workspace
+	          Add file extensionace files while saving in new style dialog.
+               Fix filetected issue. Improve Document Map precision
+               Fix filetected issue. Improve Document Map precision
+		   </p>
+		   <h2>Fix filetected issue.</h2>
+		   <h4>Fix filetected issue. Improve Document Map precision</h4>
+		   <div>
+		 </div>
+		</div>
+	  </div>
+	 
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+   <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a> 
+
+</div>
+
+	</section>
+	
+	
+	   <!--************************ ending our HAPPYCLINTS*********************************************-->
+ 
+ 
+	   <!--************************ starting contact us*********************************************-->
+	   
+	  <section class="contactus" id="contact">
+	<div class="content text-center">
+	 <h1 class="text heading">contact us</h1>
+	 <p> Disallow backward regex searches due to sometimes surprising results (an non-UI option is available to enable it)</p>
+	</div>
+	
+	<div ="container ">
+	<div ="row">
+	<div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 col-1">
+	
+	<form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">enter your name :</label>
+    <input type="text" class="form-control" placeholder="Enter your name " id="username" required autocomplete="off">
+  </div>
+  
+  <div class="form-group">
+    <label for="email">enter mobile number :</label>
+    <input type="text" class="form-control" placeholder="Enter your number " id="username" required autocomplete="off">
+  </div>
+  
+  <div class="form-group">
+    <label for="email">enter your email :</label>
+    <input type="text" class="form-control" placeholder="Enter your email " id="username" required autocomplete="off">
+  </div>
+  
+  <div class="form-group">
+    <label for="email">enter your password:</label>
+    <input type="text" class="form-control" placeholder="Enter your ppassword" id="username" required autocomplete="off">
+  </div>
+  
+  <div class="form-group">
+    <label for="comment">Comment:</label>
+     <textarea class="form-control" rows="5" id="comment" placeholder="about "></textarea>
+  </div>
+
+
+  <div ="from-group m-5">
+    physicallly challenged:<input type="radio" name="phycically">yes <input type="radio" name="phycically">no
+  </div>
+  
+ 
+  <button type="submit" class="subtace btn btn-primary">Submit</button>
+  
+</form>
+
+	
+	</div>
+	</div>
+	</div>
+	</section>
+	
+	
+	   <!--************************ ending our contactus*********************************************-->
+
+
+	   <!--************************ starting email proterty*********************************************-->
+   <section class="email" id="email">
+	<div class="content text-center">
+	 <h1 class="text heading">SUSCRUBE TO OUR NEWSLETTER</h1>
+	</div>
+	<div class="containar">
+	<div class="row">
+      <div class="col-lg-8 offset-lg-2 col-12">
+	  <form>
+  <div class="input-group mb-3">
+    <input type="text" class=" email-input form-control" placeholder=" enter Your Email" required autocomplete="off">
+    <div class=" enater input-group-append">
+      <span class=" suscribe input-group-text">subscribe</span>
+    </div>
+  </div>
+</form>
+	  </div>	
+	</div>
+	</div>
+	</section>
+	
+ <!--************************ ending our email-part *********************************************-->
+  <section class="footersection" id="footer">
+	<div class="footer-input text-center">
+	       <div class="containar">
+             <div class="row">
+			   <div class="col-lg-4 col-md-6 col-12">
+			     <h3>Fix Find/Replace history lost issue.</h3>
+ 			   <p>Fix current range detached from Document Map issue.
+            Disallow backward regex searches due to sometimes surprising results (an non-UI option is available to enable it).. Fix wrong project panel at start by opening a project via command line.
+                   Allow user to skip *.* when adding only excluding Filters for Find/Replace In Files.
+            Fix Doc switcher icon state update issue for cloned documents.
+     			       Assign CTRL-M as default shortcut for invoking mark dialog.</p>
+			   </div>
+			   
+			    <div class="col-lg-4 col-md-6 col-12">
+			     <h3>Replace history lost issue.</h3>
+ 			      <li><a href ="#">home</a></li>
+				   <li><a href ="#">service</a></li>
+				    <li><a href ="#">service</a></li>
+					 <li><a href ="#">service</a></li>
+					 <li><a href ="#">service</a></li>
+
+			   </div>
+			   
+			    <div class="col-lg-4 col-md-12 col-12">
+			     <h3>Fix Find/Replace issue.</h3>
+ 			   <p>Fix current range detached from Document Map issue.
+            Fix Doc switcher icon state update issue for cloned documents.
+     			       Assign CTRL-M as default shortcut for invoking mark dialog
+					   Fix current range detached from Document Map issue.
+            Fix Doc switcher icon state update issue for cloned documents.
+     			       Assign CTRL-M as default shortcut for invoking mark dialog.</p>
+		 			   	<div class="containar">
+	                 <div class="row">
+                 <div class="col-lg-8 offset-lg-2 col-12">
+	             <form>
+                   <div class="input-group mb-3">
+                   <input type="text" class=" email-input form-control" placeholder=" enter Your Email" required autocomplete="off">
+             <div class=" enater input-group-append">
+               <span class=" suscribe input-group-text">subscribe</span>
+                  </div>
+               </div>
+              </form>
+	       </div>	
+	       </div>
+	     </div>
+			   </div>
+			  
+			 </div>		   
+		   </div>
+ 		   <div class="ending">
+		   <p>copyright © www.myonlineMeal.com.all.rights reserved!</p>
+		   </div>
+		   
+		   <div class="scrolltop float-right ">
+		      <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+		   </div>
+	</div>
+	</section>
+ 
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+	 $('.count').counterUp({
+    delay: 10,
+    time: 2000
+       });
+	 
+	   mybutton=document.getElementById("myBtn");
+	   window.onscroll=function(){scrollFunction()};
+	   function scrollFunction(){
+	   if(document.body.scrollTop>20|| document.documentElement.scrollTop>20)
+         {
+		    mybutton.style.display="block";
+		 }	                               
+       else
+          {
+            mybutton.style.display="none";
+          }	   
+	   }
+	
+	function topFunction(){
+	document.body.scrollTop=0;
+	document.documentElement.scrollTop=0;
+	}
+	
+	</script>
+
+</body>
+ </html>
+   
+   
